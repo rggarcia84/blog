@@ -1,4 +1,5 @@
 FROM centos/python-36-centos7:latest
+RUN pip install --upgrade pip
 
 USER root
 
